@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="covid-site.css">
+</head>
+<body>
+    <!-- Container containing page haeding and Last data update info -->
+    <div class="container w-100" id="heading">
+        <h1 class="text-center mt-5">Covid Updates</h1>
+        <h5 class="text-center " id="update_time"></h5>
+    </div>
+    <br></br>
+    <!-- Conatiner containing the global data -->
+    <div class="container" id="global">
+        <h3 class="text-center " >Global Data</h3>
+        <table class="table ">
+            <thead>
+                <tr>
+                    <th>Total Cases</th>
+                    <th>Total Deaths</th>
+                    <th>Total Recovered</th>
+                    <th>New Deaths</th>
+                    <th>New Cases</th>                   
+                </tr>
+            </thead>
+            <tbody id="globalinfo"></tbody>
+        </table>
+    </div>
+    <br></br>
+    <div class="table-area">
+        <!-- Country wise data arranged in a table -->
+        <table class="table table-dark table-responsive table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Total Cases</th>
+                    <th>Total Deaths</th>
+                    <th>Total Recovered</th>
+                    <th>Active Cases</th>
+                    <th>Serious Cases</th>
+                    <th>New Deaths</th>
+                    <th>New Cases</th>
+                    <th>Total Case per million population</td>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <br></br>
+    <script src="covid-site.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

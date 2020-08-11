@@ -1,0 +1,27 @@
+#heading{
+    background-color: black;
+    color: #faf0d9;
+}
+
+#global{
+    background-color: #faf0d9;
+    color: black;  
+}
+
+thead{
+    color: rgb(168, 20, 10) ;
+}
+
+#tbody{
+    color: darkgoldenrod ;
+}
+
+.col-1 {
+    color: green;
+}
+.container{
+    background-color: indigo;
+}
+
+
+    
