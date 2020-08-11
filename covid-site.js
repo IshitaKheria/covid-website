@@ -46,7 +46,7 @@ function renderHTML(data){
     //loop for getting in element of array 
     for(var i = 0; i< data.countries_stat.length; i++){
         //storing all the property:value in variables
-        var country = "<td class='col-1'id='" + data.countries_stat[i].country_name + "'>" + data.countries_stat[i].country_name + "</td>";
+        var country = "<td class='field-1'id='" + data.countries_stat[i].country_name + "'>" + data.countries_stat[i].country_name + "</td>";
         var Total_Cases = "<td>" + data.countries_stat[i].cases + "</td>";
         var Total_Deaths = "<td>" + data.countries_stat[i].deaths + "</td>";
         var Total_Recovered = "<td>" + data.countries_stat[i].total_recovered + "</td>";
